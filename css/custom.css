@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+
+}
+
+#Tetris{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width:100%;
+    text-align: center;
+}
+
+.t_row{
+    display: flex;
+}
+
+#grid {
+    width: 30%;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.col {
+    display: inline-block;
+    height: 0;
+    width:10%;
+    color: blue;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.borderLT{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.borderR{
+    border-right: 1px solid black;
+}
+
+.borderB{
+    border-bottom: 1px solid black;
+}
